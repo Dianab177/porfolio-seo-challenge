@@ -31,7 +31,25 @@
     font-size: 18px;
     line-height: 1.5;
   }
-  
+  @media (max-width: 769px){
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .div-margin{
+        margin-bottom: 25px;
+    }
+    
+
+  }
+  .row{
+    margin-bottom: 25px;
+  }
   .navigation-links {
     display: flex;
     margin-top: 40px;
